@@ -7,6 +7,7 @@ This is just a simple document to help remind me how I manage my system.
 Using [ghq](https://github.com/x-motemen/ghq) as much as I can to install repositories I want to persist on my system `~/Repos` so I don't have to keep track of all the repos I have installed. I _may_ symlink to them.
 
 - The configuration for `ghq` is in [vcsh-git/.gitconfig](https://github.com/aubreypwd/vcsh-git/blob/master/.gitconfig) under the `ghq` heading.
+- Also [`vcsh-zsh/.zshrc`](https://github.com/aubreypwd/vcsh-zsh/blob/master/.zshrc#L124) will also install some persistent repositores for you
 
 ## System files (dot-files)
 
