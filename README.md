@@ -12,7 +12,7 @@ I use [vcsh](https://github.com/RichiH/vcsh) which version controls my `$HOME` u
 
 ## Applications
 
-[`brew'](https://brew.sh), [`brew cask`](https://github.com/Homebrew/homebrew-cask), [`mas'](https://formulae.brew.sh/formula/mas) for App Store.
+[`brew`](https://brew.sh), [`brew cask`](https://github.com/Homebrew/homebrew-cask), [`mas`](https://formulae.brew.sh/formula/mas) for App Store.
 
 - I use [vcsh-homebrew](http://github.com/aubreypwd/vcsh-homebrew) and `brew bundle` to track what's installed with these in a `Brewfile`
 - Use `brew bundle Brewfile` to install all the things
