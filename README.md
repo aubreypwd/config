@@ -29,4 +29,4 @@ I use [vcsh](https://github.com/RichiH/vcsh) which version controls my `$HOME` u
 
 ---
 
-(WIP)
+This document is a work in progress and likly still misses a ton of stuff. 
