@@ -6,6 +6,8 @@ This is just a simple document to help remind me how I manage my system.
 
 Using [ghq](https://github.com/x-motemen/ghq) as much as I can and symlink to `~/Repos` so I don't have to keep track of all the repos I have installed.
 
+- The configuration for `ghq` is in [vcsh-git/.gitconfig](https://github.com/aubreypwd/vcsh-git/blob/master/.gitconfig) under the `ghq` heading.
+
 ## System files (dot-files)
 
 I use [vcsh](https://github.com/RichiH/vcsh) which version controls my `$HOME` using [many repositories](https://github.com/aubreypwd?tab=repositories&q=vcsh-*&type=&language=).
