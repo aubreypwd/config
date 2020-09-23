@@ -13,6 +13,9 @@ Using [ghq](https://github.com/x-motemen/ghq) as much as I can to install reposi
 
 I use [vcsh](https://github.com/RichiH/vcsh) which version controls my `$HOME` using [many repositories](https://github.com/aubreypwd?tab=repositories&q=vcsh-*&type=&language=).
 
+- Install using `vcsh clone repo <repo-name>`
+- If you have files already on the system you will have to use `vcsh <repo-name> reset --hard FETCH_HEAD` afterwards, and `vcsh write-gitignore <repo-name>`
+
 ## Applications
 
 [`brew`](https://brew.sh), [`brew cask`](https://github.com/Homebrew/homebrew-cask), [`mas`](https://formulae.brew.sh/formula/mas) for App Store.
