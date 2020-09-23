@@ -36,4 +36,4 @@ I use [vcsh](https://github.com/RichiH/vcsh) which version controls my `$HOME` u
 
 ---
 
-This document is a work in progress and likly still misses a ton of stuff. 
+This document is a work in progress and likely still misses a ton of stuff. 
