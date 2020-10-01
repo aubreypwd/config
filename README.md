@@ -20,6 +20,22 @@ I use [vcsh](https://github.com/RichiH/vcsh) which version controls my `$HOME` u
 - Install using `vcsh clone repo <repo-name>`
 - If you have files already on the system you will have to use `vcsh <repo-name> reset --hard FETCH_HEAD` afterwards, and `vcsh write-gitignore <repo-name>`
 
+### To install a `vcsh-*` repo:
+
+```bash
+vcsh clone <repo> <name>
+```
+
+When you do this, if the files tracked are already in your filessystem, you will get a warning:
+
+```bash
+vcsh: error: '<file>' exists.
+vcsh: fatal: will stop after fetching and not try to merge!
+  Once this situation has been resolved, run 'vcsh sublime-text-3 pull' to finish cloning.
+```
+To remedy this, just use `vcsh <name> reset --hard origin/master` to sync up with the remote.
+
+
 ### Sublime Text 3
 
 - Use [vcsh-sublime-text-3](https://github.com/aubreypwd/vcsh-sublime-text-3) to track my config files in `$HOME/Library/Application Support/Sublime Text 3/*`
