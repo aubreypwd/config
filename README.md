@@ -1,4 +1,4 @@
-# System
+# Config
 
 This is just a simple document to help remind me how I manage my system.
 
