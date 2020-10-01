@@ -2,12 +2,16 @@
 
 This is just a simple document to help remind me how I manage my system.
 
+---
+
 ## Persistant Repositories `ghq`
 
 Using [ghq](https://github.com/x-motemen/ghq) as much as I can to install repositories I want to persist on my system `~/Repos` so I don't have to keep track of all the repos I have installed. I _may_ symlink to them.
 
 - The configuration for `ghq` is in [vcsh-git/.gitconfig](https://github.com/aubreypwd/vcsh-git/blob/master/.gitconfig) under the `ghq` heading.
 - Also [`vcsh-zsh/.zshrc`](https://github.com/aubreypwd/vcsh-zsh/blob/master/.zshrc#L124) will also install some persistent repositores for you
+
+---
 
 ## System files (dot-files) `vcsh`
 
@@ -26,6 +30,7 @@ I use [vcsh](https://github.com/RichiH/vcsh) which version controls my `$HOME` u
 
 ...but I may move this to `ghq` or something later on.
 
+---
 
 ## Applications `brew, brew cask, mas`
 
@@ -33,6 +38,12 @@ I use [vcsh](https://github.com/RichiH/vcsh) which version controls my `$HOME` u
 
 - I use [vcsh-homebrew](http://github.com/aubreypwd/vcsh-homebrew) and `brew bundle` to track what's installed with these in a `Brewfile`
 - Use `brew bundle Brewfile` to install all the things
+
+---
+
+## Custom zsh commands, aliases, and functions
+
+All my aliases and commands are `oh-my-zsh` [plugins](https://github.com/aubreypwd?tab=repositories&q=zsh-plugin-&type=&language=)  that can be installed using `antigen`, e.g. [aubreypwd/zsh-plugin-x](https://github.com/aubreypwd/zsh-plugin-x#development). If you install them using `master` (default) I can contribute to the repo by simply going to `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-<name>`.
 
 ---
 
