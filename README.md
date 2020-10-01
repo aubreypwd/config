@@ -43,11 +43,13 @@ I can then, at any time run `brew bundle "$HOME/Brewfile"` to install anything t
 
 ---
 
-## Custom zsh commands, aliases, and functions
+## Custom zsh aliases and custom functions
 
-All my aliases and commands are `oh-my-zsh` [plugins](https://github.com/aubreypwd?tab=repositories&q=zsh-plugin-&type=&language=)  that can be installed using `antigen`, e.g. [aubreypwd/zsh-plugin-x](https://github.com/aubreypwd/zsh-plugin-x#development). If you install them using `master` (default) I can contribute to the repo by simply going to `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-<name>`.
+All my aliases and custom functions are `oh-my-zsh` [plugins](https://github.com/aubreypwd?tab=repositories&q=zsh-plugin-&type=&language=) that can be installed using `antigen`, e.g. [aubreypwd/zsh-plugin-x](https://github.com/aubreypwd/zsh-plugin-x#development). 
 
-- [Template](https://github.com/aubreypwd/zsh-plugin-template)
+If you install them using `master` (default) I can contribute to the repo by simply going to `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-<name>`.
+
+- [Template for creating new plugins](https://github.com/aubreypwd/zsh-plugin-template)
 
 ---
 
