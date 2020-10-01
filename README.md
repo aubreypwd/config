@@ -36,10 +36,10 @@ I use [vcsh](https://github.com/RichiH/vcsh) which version controls my `$HOME` u
 
 [`brew`](https://brew.sh), [`brew cask`](https://github.com/Homebrew/homebrew-cask), [`mas`](https://formulae.brew.sh/formula/mas) for App Store.
 
-- I use [vcsh-homebrew](http://github.com/aubreypwd/vcsh-homebrew) and `brew bundle` to track what's installed with these in a `Brewfile`
+- I use [vcsh-homebrew](http://github.com/aubreypwd/vcsh-homebrew) and `brew bundle dump` to track what's installed with these in a `Brewfile`
 - Use `brew bundle Brewfile` to install all the things
 
-I then track this `Brewfile` using `vcsh`, see [aubreypwd/vcsh-homebrew/blob/master/Brewfile](https://github.com/aubreypwd/vcsh-homebrew/blob/master/Brewfile). I can then, at any time run `brew bundle "$HOME/Brewfile"` to install anything tracked there.
+I can then, at any time run `brew bundle "$HOME/Brewfile"` to install anything tracked there.
 
 ---
 
