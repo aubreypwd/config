@@ -4,7 +4,7 @@ This is just a simple document to help remind me how I manage my system.
 
 ---
 
-## Persistant Repositories `ghq`
+## Persistant Repositories _via_ `ghq`
 
 Using [ghq](https://github.com/x-motemen/ghq) as much as I can to install repositories I want to persist on my system `~/Repos` so I don't have to keep track of all the repos I have installed. I _may_ symlink to them.
 
@@ -13,7 +13,7 @@ Using [ghq](https://github.com/x-motemen/ghq) as much as I can to install reposi
 
 ---
 
-## System files (dot-files) `vcsh`
+## System files (dot-files) _via_ `vcsh`
 
 I use [vcsh](https://github.com/RichiH/vcsh) which version controls my `$HOME` using [many repositories](https://github.com/aubreypwd?tab=repositories&q=vcsh-*&type=&language=).
 
@@ -48,7 +48,7 @@ To remedy this, just use `vcsh <name> reset --hard origin/master` to sync up wit
 
 ---
 
-## Applications `brew, brew cask, mas`
+## Applications _via_ `brew, brew cask, mas`
 
 [`brew`](https://brew.sh), [`brew cask`](https://github.com/Homebrew/homebrew-cask), [`mas`](https://formulae.brew.sh/formula/mas) for App Store.
 
@@ -57,13 +57,19 @@ To remedy this, just use `vcsh <name> reset --hard origin/master` to sync up wit
 
 I can then, at any time run `brew bundle "$HOME/Brewfile"` to install anything tracked there.
 
+### My Applications _via_ `brew cask`
+
+I have some applications I build as [electron](https://www.electronjs.org/) apps, e.g. [Reedsy](https://github.com/aubreypwd/reedsy-mac) that can be installed using `brew cask` as well. I manage a [tap](https://github.com/aubreypwd/homebrew-cask/) for all the apps you can install.
+
+Once you add the tap, you can find the repo for the tap at `/usr/local/Homebrew/Library/Taps/aubreypwd/homebrew-cask`.
+
 ---
 
-## Custom zsh aliases and custom functions
+## Custom zsh aliases and custom functions via `antigen`
 
 All my aliases and custom functions are `oh-my-zsh` [plugins](https://github.com/aubreypwd?tab=repositories&q=zsh-plugin-&type=&language=) that can be installed using `antigen`, e.g. [aubreypwd/zsh-plugin-x](https://github.com/aubreypwd/zsh-plugin-x#development). 
 
-If you install them using `master` (default) I can contribute to the repo by simply going to `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-<name>`.
+If you install them using SSH, you can contribute to the repo by simply going to `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-<name>`.
 
 - [Template for creating new plugins](https://github.com/aubreypwd/zsh-plugin-template)
 
